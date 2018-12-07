@@ -9,7 +9,7 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
-const adminprefix = "#set"; 
+const adminprefix = "$set"; 
 const devs = ['507920205973028879'];
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
